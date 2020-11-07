@@ -8,6 +8,11 @@ const Sidebar = styled.aside`
   padding: 3rem;
   width: ${props => props.theme.consts.sidebar_width};
   overflow-y: auto;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
 `;
 
 const Title = styled.h1`
@@ -19,6 +24,10 @@ const Title = styled.h1`
 
 const NavItem = styled.li`
   margin-bottom: 1.3rem;
+
+  a:hover {
+    text-decoration: underline;
+  }
 
   &:last-child {
     margin-bottom: 0;
