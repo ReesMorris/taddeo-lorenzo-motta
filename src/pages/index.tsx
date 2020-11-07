@@ -25,7 +25,7 @@ const Index: React.FunctionComponent<IndexProps> = ({ galleryItems }) => {
 
 export const getStaticProps: GetStaticProps = async () => {
   const contents = await fs.readFileSync(
-    path.join(process.cwd(), 'src/_test.txt'),
+    path.join(process.cwd(), 'src/static-data/gallery.txt'),
     'utf8'
   );
 
