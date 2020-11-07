@@ -1,4 +1,7 @@
+import consts from './_consts';
+
 export default {
+  consts: { ...consts },
   site: {
     background_color: '#000000'
   },

@@ -1,15 +1,14 @@
 import React from 'react';
-import styled from 'styled-components';
-
-const Link = styled.a`
-  color: ${props => props.theme.colors.primary};
-`;
+import Main from '../components/main';
+import Page from '../components/page';
+import Sidebar from '../components/sidebar';
 
 const Index: React.FunctionComponent = () => {
   return (
-    <p>
-      <Link href='#'>Taddeo Lorenzo Motta</Link>
-    </p>
+    <Page>
+      <Sidebar />
+      <Main>Main content</Main>
+    </Page>
   );
 };
 
