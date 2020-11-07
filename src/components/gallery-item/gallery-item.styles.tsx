@@ -5,9 +5,10 @@ const Item = styled.div`
   margin-bottom: ${props => props.theme.consts.gallery_item_spacing};
 `;
 
-const Wrapper = styled.div`
+const Wrapper = styled.button`
   position: relative;
   display: block;
+  border: none;
   padding: 5%;
   background: ${props => props.theme.gallery.item_border_color};
   cursor: pointer;

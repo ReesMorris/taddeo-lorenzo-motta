@@ -36,7 +36,7 @@ export const getStaticProps: GetStaticProps = async () => {
     return {
       id: i,
       name: lines[0].match(regexp)[1].trim(),
-      desc: lines[1].match(regexp)[1].trim(),
+      description: lines[1].match(regexp)[1].trim(),
       image: lines[2].match(regexp)[1].trim()
     };
   });

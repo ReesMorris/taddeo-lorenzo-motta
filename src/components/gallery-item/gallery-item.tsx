@@ -4,12 +4,18 @@ import Styles from './gallery-item.styles';
 
 interface GalleryItemProps {
   item: IGalleryItem;
+  onClick?: (item: IGalleryItem) => void;
 }
 
-const GalleryItem: React.FunctionComponent<GalleryItemProps> = ({ item }) => {
+const GalleryItem: React.FunctionComponent<GalleryItemProps> = ({
+  item,
+  onClick
+}) => {
+  const clickHander = (): void => onClick && onClick(item);
+
   return (
     <Styles.Item>
-      <Styles.Wrapper>
+      <Styles.Wrapper onClick={clickHander}>
         <Styles.Figure>
           <Styles.Image src={item.image} alt={item.description} />
           <Styles.FigCaption>
