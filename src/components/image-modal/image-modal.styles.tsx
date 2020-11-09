@@ -14,8 +14,8 @@ const Image = styled.img`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-height: 90vh;
-  max-width: 90vh;
+  max-height: 90%;
+  max-width: 90%;
   z-index: 2;
 `;
 
