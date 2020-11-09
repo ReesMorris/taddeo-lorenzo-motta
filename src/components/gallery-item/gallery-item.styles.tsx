@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const Item = styled.div`
   list-style-type: none;
-  margin-bottom: ${props => props.theme.consts.gallery_item_spacing};
+  margin-bottom: ${({ theme }) => theme.consts.gallery_item_spacing};
 `;
 
 const Wrapper = styled.button`
@@ -10,7 +10,7 @@ const Wrapper = styled.button`
   display: block;
   border: none;
   padding: 5%;
-  background: ${props => props.theme.gallery.item_border_color};
+  background: ${({ theme }) => theme.gallery.item_border_color};
   cursor: pointer;
 
   &:hover figcaption {
@@ -42,11 +42,11 @@ const FigCaptionText = styled.span`
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  background: ${props => props.theme.gallery.item_border_color};
+  background: ${({ theme }) => theme.gallery.item_border_color};
   border-radius: 0.3rem;
   padding: 4%;
   font-size: 1.4rem;
-  color: ${props => props.theme.colors.secondary};
+  color: ${({ theme }) => theme.colors.secondary};
 `;
 
 export default { Item, Wrapper, Figure, Image, FigCaption, FigCaptionText };

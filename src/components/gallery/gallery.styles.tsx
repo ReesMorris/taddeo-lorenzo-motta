@@ -6,7 +6,7 @@ const Grid = styled(Masonry)`
   width: auto;
 
   > .col {
-    padding-left: ${props => props.theme.consts.gallery_item_spacing};
+    padding-left: ${({ theme }) => theme.consts.gallery_item_spacing};
     background-clip: padding-box;
   }
 `;
