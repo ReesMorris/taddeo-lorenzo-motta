@@ -12,6 +12,7 @@ declare module 'styled-components' {
     colors: {
       primary: string;
       secondary: string;
+      link: string;
     };
     gallery: {
       item_border_color: string;

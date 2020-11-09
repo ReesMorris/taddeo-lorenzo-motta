@@ -7,7 +7,8 @@ export default {
   },
   colors: {
     primary: '#ffffff',
-    secondary: '#000000'
+    secondary: '#000000',
+    link: '#7be6ff'
   },
   gallery: {
     item_border_color: '#fefefe'

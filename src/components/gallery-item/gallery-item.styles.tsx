@@ -12,6 +12,8 @@ const Wrapper = styled.button`
   padding: 5%;
   background: ${({ theme }) => theme.gallery.item_border_color};
   cursor: pointer;
+  width: 100%;
+  min-height: 10rem;
 
   &:hover figcaption {
     opacity: 1;

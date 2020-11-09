@@ -16,7 +16,7 @@ const Index: React.FunctionComponent<IndexProps> = ({ galleryItems }) => {
   return (
     <Page>
       <Sidebar />
-      <Main>
+      <Main noPadding>
         <Gallery items={galleryItems} />
       </Main>
     </Page>
