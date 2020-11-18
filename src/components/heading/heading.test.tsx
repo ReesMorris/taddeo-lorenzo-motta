@@ -1,13 +1,13 @@
 import React from 'react';
-import Text from './index';
+import Heading from './index';
 import { render as rtlRender } from '../../utils/tests';
 
-const render = ({ as, children = '' }) => {
+const render = ({ as = null, children }) => {
   return {
     ...rtlRender(
-      <Text as={as}>
+      <Heading as={as}>
         <>{children}</>
-      </Text>
+      </Heading>
     )
   };
 };
@@ -18,15 +18,15 @@ test('renders children', () => {
   getByText(children);
 });
 
-test('renders a `p` tag by default', () => {
+test('renders a `h1` tag by default', () => {
   const children = 'Hello';
   const { getByText } = render({ children });
-  expect(getByText(children)).toContainHTML('<p');
+  expect(getByText(children)).toContainHTML('<h1');
 });
 
 test('`as` prop works', () => {
   const children = 'Hello';
-  const { getByText, queryByText } = render({ as: 'span', children });
-  expect(getByText(children)).toContainHTML('<span');
-  expect(queryByText(children)).not.toContainHTML('<p');
+  const { getByText, queryByText } = render({ as: 'h2', children });
+  expect(getByText(children)).toContainHTML('<h2');
+  expect(queryByText(children)).not.toContainHTML('<h1');
 });

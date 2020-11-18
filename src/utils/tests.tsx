@@ -10,3 +10,7 @@ export const render = (ui: React.ReactElement): RenderResult => {
     ...rtlRender(<ThemeWrapper>{ui}</ThemeWrapper>)
   };
 };
+
+afterEach(() => {
+  jest.clearAllMocks();
+});
