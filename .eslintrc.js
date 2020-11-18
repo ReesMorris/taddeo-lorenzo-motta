@@ -2,7 +2,8 @@ module.exports = {
   root: true,
   env: {
     node: true,
-    es6: true
+    es6: true,
+    'jest/globals': true
   },
   parserOptions: { ecmaVersion: 8 },
   ignorePatterns: ['node_modules/*', '.next/*', '.out/*', '!.prettierrc.js'],
