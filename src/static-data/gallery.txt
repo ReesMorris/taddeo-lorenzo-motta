@@ -292,4 +292,3 @@ IMAGE: /images/71.jpg
 NAME: name goes here
 DESCRIPTION: description goes here
 IMAGE: /images/72.jpg
-
