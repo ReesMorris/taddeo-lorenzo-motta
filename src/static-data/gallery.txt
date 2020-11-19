@@ -94,67 +94,63 @@ NAME: Sketchbook Vol.5
 DESCRIPTION: description goes here
 IMAGE: /images/22.jpg
 
-NAME: name goes here
+NAME: Fictional Poster Series
 DESCRIPTION: description goes here
 IMAGE: /images/42.jpg
 
-NAME: name goes here
+NAME: Fictional Poster Series
 DESCRIPTION: description goes here
 IMAGE: /images/44.jpg
 
-NAME: name goes here
+NAME: Fictional Poster Series
 DESCRIPTION: description goes here
 IMAGE: /images/45.jpg
 
-NAME: name goes here
+NAME: Fictional Poster Series
 DESCRIPTION: description goes here
 IMAGE: /images/46.jpg
 
-NAME: name goes here
+NAME: Fictional Poster Series
 DESCRIPTION: description goes here
 IMAGE: /images/47.jpg
 
-NAME: name goes here
-DESCRIPTION: description goes here
-IMAGE: /images/53.jpg
-
-NAME: name goes here
+NAME: Fictional Poster Series
 DESCRIPTION: description goes here
 IMAGE: /images/54.jpg
 
-NAME: name goes here
+NAME: Fictional Poster Series
 DESCRIPTION: description goes here
 IMAGE: /images/55.jpg
 
-NAME: name goes here
+NAME: Fictional Poster Series
 DESCRIPTION: description goes here
 IMAGE: /images/56.jpg
 
-NAME: name goes here
+NAME: Fictional Poster Series
 DESCRIPTION: description goes here
 IMAGE: /images/57.jpg
 
-NAME: name goes here
+NAME: Fictional Poster Series
 DESCRIPTION: description goes here
 IMAGE: /images/59.jpg
 
-NAME: name goes here
+NAME: Fictional Poster Series
 DESCRIPTION: description goes here
 IMAGE: /images/61.jpg
 
-NAME: name goes here
+NAME: Fictional Poster Series
 DESCRIPTION: description goes here
 IMAGE: /images/62.jpg
 
-NAME: name goes here
+NAME: Fictional Poster Series
 DESCRIPTION: description goes here
 IMAGE: /images/63.jpg
 
-NAME: name goes here
+NAME: Fictional Poster Series
 DESCRIPTION: description goes here
 IMAGE: /images/64.jpg
 
-NAME: name goes here
+NAME: Fictional Poster Series
 DESCRIPTION: description goes here
 IMAGE: /images/65.jpg
 
@@ -162,26 +158,26 @@ NAME: name goes here
 DESCRIPTION: description goes here
 IMAGE: /images/66.jpg
 
-NAME: name goes here
+NAME: Passwort Gesicht Editorial
 DESCRIPTION: description goes here
 IMAGE: /images/67.jpg
 
-NAME: name goes here
+NAME: Passwort Gesicht Editorial
 DESCRIPTION: description goes here
 IMAGE: /images/68.jpg
 
-NAME: name goes here
+NAME: Passwort Gesicht Editorial
 DESCRIPTION: description goes here
 IMAGE: /images/69.jpg
 
-NAME: name goes here
+NAME: Passwort Gesicht Editorial
 DESCRIPTION: description goes here
 IMAGE: /images/70.jpg
 
-NAME: name goes here
+NAME: Passwort Gesicht Editorial
 DESCRIPTION: description goes here
 IMAGE: /images/71.jpg
 
-NAME: name goes here
+NAME: Passwort Gesicht Editorial
 DESCRIPTION: description goes here
 IMAGE: /images/72.jpg
