@@ -96,87 +96,7 @@ IMAGE: /images/22.jpg
 
 NAME: name goes here
 DESCRIPTION: description goes here
-IMAGE: /images/23.jpg
-
-NAME: name goes here
-DESCRIPTION: description goes here
-IMAGE: /images/24.jpg
-
-NAME: name goes here
-DESCRIPTION: description goes here
-IMAGE: /images/25.jpg
-
-NAME: name goes here
-DESCRIPTION: description goes here
-IMAGE: /images/26.jpg
-
-NAME: name goes here
-DESCRIPTION: description goes here
-IMAGE: /images/27.jpg
-
-NAME: name goes here
-DESCRIPTION: description goes here
-IMAGE: /images/28.jpg
-
-NAME: name goes here
-DESCRIPTION: description goes here
-IMAGE: /images/29.jpg
-
-NAME: name goes here
-DESCRIPTION: description goes here
-IMAGE: /images/30.jpg
-
-NAME: name goes here
-DESCRIPTION: description goes here
-IMAGE: /images/31.jpg
-
-NAME: name goes here
-DESCRIPTION: description goes here
-IMAGE: /images/32.jpg
-
-NAME: name goes here
-DESCRIPTION: description goes here
-IMAGE: /images/33.jpg
-
-NAME: name goes here
-DESCRIPTION: description goes here
-IMAGE: /images/34.jpg
-
-NAME: name goes here
-DESCRIPTION: description goes here
-IMAGE: /images/35.jpg
-
-NAME: name goes here
-DESCRIPTION: description goes here
-IMAGE: /images/36.jpg
-
-NAME: name goes here
-DESCRIPTION: description goes here
-IMAGE: /images/37.jpg
-
-NAME: name goes here
-DESCRIPTION: description goes here
-IMAGE: /images/38.jpg
-
-NAME: name goes here
-DESCRIPTION: description goes here
-IMAGE: /images/39.jpg
-
-NAME: name goes here
-DESCRIPTION: description goes here
-IMAGE: /images/40.jpg
-
-NAME: name goes here
-DESCRIPTION: description goes here
-IMAGE: /images/41.jpg
-
-NAME: name goes here
-DESCRIPTION: description goes here
 IMAGE: /images/42.jpg
-
-NAME: name goes here
-DESCRIPTION: description goes here
-IMAGE: /images/43.jpg
 
 NAME: name goes here
 DESCRIPTION: description goes here
@@ -193,26 +113,6 @@ IMAGE: /images/46.jpg
 NAME: name goes here
 DESCRIPTION: description goes here
 IMAGE: /images/47.jpg
-
-NAME: name goes here
-DESCRIPTION: description goes here
-IMAGE: /images/48.jpg
-
-NAME: name goes here
-DESCRIPTION: description goes here
-IMAGE: /images/49.jpg
-
-NAME: name goes here
-DESCRIPTION: description goes here
-IMAGE: /images/50.jpg
-
-NAME: name goes here
-DESCRIPTION: description goes here
-IMAGE: /images/51.jpg
-
-NAME: name goes here
-DESCRIPTION: description goes here
-IMAGE: /images/52.jpg
 
 NAME: name goes here
 DESCRIPTION: description goes here
@@ -236,15 +136,7 @@ IMAGE: /images/57.jpg
 
 NAME: name goes here
 DESCRIPTION: description goes here
-IMAGE: /images/58.jpg
-
-NAME: name goes here
-DESCRIPTION: description goes here
 IMAGE: /images/59.jpg
-
-NAME: name goes here
-DESCRIPTION: description goes here
-IMAGE: /images/60.jpg
 
 NAME: name goes here
 DESCRIPTION: description goes here
