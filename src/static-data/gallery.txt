@@ -196,12 +196,12 @@ IMAGE: /images/2D3D4.jpg
 
 NAME: 2D/3D Malerei
 DESCRIPTION: description goes here
-IMAGE: /images/2D3D1.jpg
+IMAGE: /images/2D3D1.JPG
 
 NAME: 2D/3D Malerei
 DESCRIPTION: description goes here
-IMAGE: /images/2D3D2.jpg
+IMAGE: /images/2D3D2.JPG
 
 NAME: 2D/3D Malerei
 DESCRIPTION: description goes here
-IMAGE: /images/2D3D3.jpg
+IMAGE: /images/2D3D3.JPG
