@@ -205,4 +205,3 @@ IMAGE: /images/2D3D2.jpg
 NAME: 2D/3D Malerei
 DESCRIPTION: description goes here
 IMAGE: /images/2D3D3.jpg
-
