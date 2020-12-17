@@ -217,4 +217,3 @@ IMAGE: /images/Ritter.jpg
 NAME: Tiefdruck Einsiedler
 DESCRIPTION: description goes here
 IMAGE: /images/Einsiedler.jpg
-
