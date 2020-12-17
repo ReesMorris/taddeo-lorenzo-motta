@@ -205,3 +205,16 @@ IMAGE: /images/2D3D2.JPG
 NAME: 2D/3D Malerei
 DESCRIPTION: description goes here
 IMAGE: /images/2D3D3.JPG
+
+NAME: Tiefdruck Auto
+DESCRIPTION: description goes here
+IMAGE: /images/Auto.jpg
+
+NAME: Tiefdruck Ritter
+DESCRIPTION: description goes here
+IMAGE: /images/Ritter.jpg
+
+NAME: Tiefdruck Einsiedler
+DESCRIPTION: description goes here
+IMAGE: /images/Einsiedler.jpg
+
