@@ -217,3 +217,7 @@ IMAGE: /images/Ritter.jpg
 NAME: Tiefdruck Einsiedler
 DESCRIPTION: description goes here
 IMAGE: /images/Einsiedler.jpg
+
+NAME: EIWHA
+DESCRIPTION: description goes here
+IMAGE: /images/eiwha.gif
