@@ -1,6 +1,7 @@
 import React from 'react';
 import { IHomepageData } from '../../../models/homepage-data';
 import getImagePath from '../../utils/get-image-path';
+import Heading from '../heading';
 import Page from '../page';
 import Styles from './homepage.styles';
 
@@ -11,6 +12,7 @@ export interface HomepageProps {
 const Homepage = ({ data }: HomepageProps) => {
   return (
     <Page>
+      <Heading className='visually-hidden'>Taddeo Lorenzo Motta</Heading>
       <Styles.Grid>
         {data.map(item => (
           <Styles.GridItem key={item.label}>
@@ -18,7 +20,10 @@ const Homepage = ({ data }: HomepageProps) => {
               <Styles.Label>
                 <Styles.LabelText>{item.label}</Styles.LabelText>
               </Styles.Label>
-              <Styles.Image src={getImagePath(item.image)} alt={item.label} />
+              <Styles.Image
+                src={getImagePath(item.image)}
+                alt={item.image_alt}
+              />
             </Styles.Link>
           </Styles.GridItem>
         ))}
