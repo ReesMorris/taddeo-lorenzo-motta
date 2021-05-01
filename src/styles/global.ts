@@ -55,12 +55,7 @@ const global = css`
   }
   body.tabbing *:focus {
     transition: box-shadow 0.25s ease !important;
-    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5) !important;
-  }
-
-  body.theme-transition *,
-  body.theme-transition {
-    transition: all 0.15s ease !important;
+    box-shadow: 0 0 0 3px #ffffff !important;
   }
 
   .visually-hidden {

@@ -12,27 +12,36 @@ const GridItem = styled.li`
   position: relative;
 `;
 
-const Label = styled.p`
+const Label = styled.div`
   position: absolute;
   top: 50%;
   left: 0;
   right: 0;
   transform: translateY(-50%);
   background: rgba(0, 0, 0, 0.7);
-  padding: 2.5rem 0;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 3rem;
+  padding: 1rem 0;
   opacity: 0;
   transition: all 0.3s ease;
 `;
 
+const LabelText = styled.span`
+  display: block;
+  margin: 0 auto;
+  line-height: 4rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3rem;
+  max-width: 80%;
+`;
+
 const Link = styled(LinkWrapper)`
-  &:hover ${Label} {
+  display: block;
+
+  &:hover ${Label}, &:focus ${Label} {
     opacity: 1;
   }
 `;
 
 const Image = styled(UIImage)``;
 
-export default { Grid, GridItem, Label, Link, Image };
+export default { Grid, GridItem, Label, LabelText, Link, Image };

@@ -4,7 +4,7 @@ import getImagePath from '../../utils/get-image-path';
 import Page from '../page';
 import Styles from './homepage.styles';
 
-interface HomepageProps {
+export interface HomepageProps {
   data: IHomepageData[];
 }
 
@@ -15,7 +15,9 @@ const Homepage = ({ data }: HomepageProps) => {
         {data.map(item => (
           <Styles.GridItem key={item.label}>
             <Styles.Link href={item.link}>
-              <Styles.Label>{item.label}</Styles.Label>
+              <Styles.Label>
+                <Styles.LabelText>{item.label}</Styles.LabelText>
+              </Styles.Label>
               <Styles.Image src={getImagePath(item.image)} alt={item.label} />
             </Styles.Link>
           </Styles.GridItem>
