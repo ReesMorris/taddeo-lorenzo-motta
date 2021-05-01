@@ -1,1 +1,1 @@
-export { default } from './get-data';
+export { getData, getFiles } from './get-data';
