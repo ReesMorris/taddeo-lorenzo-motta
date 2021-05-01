@@ -1,21 +1,32 @@
-import Head from 'next/head';
+import { useRouter } from 'next/dist/client/router';
 import React from 'react';
+import useTabListener from '../../hooks/use-tab-listener';
+import SEO, { ISEO } from '../seo/seo';
 import Styles from './page.styles';
 
 interface PageProps {
-  title?: string;
+  seo?: ISEO;
   children: React.ReactNode;
 }
 
-const Page: React.FunctionComponent<PageProps> = ({ title, children }) => {
+const Page = ({ seo, children }: PageProps) => {
+  useTabListener(true);
+  const router = useRouter();
+
   return (
     <>
-      <Head>
-        <title>{`${title || ''} ${
-          title ? ' - ' : ''
-        }Taddeo Lorenzo Motta`}</title>
-      </Head>
-      <Styles.Page>{children}</Styles.Page>
+      <SEO {...seo} />
+      <Styles.Page>
+        <Styles.Content>{children}</Styles.Content>
+
+        {router.route !== '/' && (
+          <Styles.Return>
+            <Styles.ReturnLink href='/'>
+              <Styles.ReturnText forwardedAs='span'>Back</Styles.ReturnText>
+            </Styles.ReturnLink>
+          </Styles.Return>
+        )}
+      </Styles.Page>
     </>
   );
 };
