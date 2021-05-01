@@ -9,7 +9,7 @@ interface CustomPage {
 }
 
 const CustomPage = ({ data }: CustomPage) => (
-  <Page>
+  <Page seo={{ title: data.title }}>
     <Heading>{data.title}</Heading>
     {data.text}
   </Page>

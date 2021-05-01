@@ -46,7 +46,7 @@ const Album = ({ title, data }: AlbumProps) => {
   }, [modalData]);
 
   return (
-    <Page>
+    <Page seo={{ title: title.replace(/-/g, '') }}>
       <Styles.Album>
         <Heading>{title.replace(/-/g, '')}</Heading>
         <Masonry>
