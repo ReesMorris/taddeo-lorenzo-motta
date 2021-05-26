@@ -69,12 +69,14 @@ const Album = ({ title, data }: AlbumProps) => {
         </Masonry>
       </Styles.Album>
 
-      <Modal isOpen={modalData.open} onClose={closeModal}>
-        <Styles.ModalImage
-          src={`${getImagePath(data[modalData.index].image)}`}
-          alt={data[modalData.index].name}
-        />
-      </Modal>
+      {data.length > 0 && (
+        <Modal isOpen={modalData.open} onClose={closeModal}>
+          <Styles.ModalImage
+            src={`${getImagePath(data[modalData.index].image)}`}
+            alt={data[modalData.index].name}
+          />
+        </Modal>
+      )}
     </Page>
   );
 };
