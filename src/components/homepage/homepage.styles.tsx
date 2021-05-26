@@ -5,36 +5,28 @@ import UIImage from '../image';
 const GridItem = styled.li`
   padding: 5rem;
   position: relative;
+  transition: all 0.2s ease;
+
+  &:nth-child(2n):hover {
+    transform: scale(1.1) rotate(-5deg);
+  }
+  &:nth-child(2n-1):hover {
+    transform: scale(1.1) rotate(5deg);
+  }
 `;
 
-const Label = styled.div`
+const Label = styled.p`
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
   position: absolute;
-  top: 50%;
-  left: 0;
-  right: 0;
-  transform: translateY(-50%);
-  background: rgba(0, 0, 0, 0.7);
-  padding: 1rem 0;
-  opacity: 0;
-  transition: all 0.3s ease;
-`;
-
-const LabelText = styled.span`
-  display: block;
-  margin: 0 auto;
-  line-height: 4rem;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 3rem;
-  max-width: 80%;
+  white-space: nowrap;
+  width: 1px;
 `;
 
 const Link = styled(LinkWrapper)`
   display: block;
-
-  &:hover ${Label}, &:focus ${Label} {
-    opacity: 1;
-  }
 `;
 
 const Image = styled(UIImage)``;
@@ -69,4 +61,4 @@ const Grid = styled.ul`
   }
 `;
 
-export default { Grid, GridItem, Label, LabelText, Link, Image };
+export default { Grid, GridItem, Label, Link, Image };

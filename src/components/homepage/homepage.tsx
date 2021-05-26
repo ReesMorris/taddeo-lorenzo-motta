@@ -17,9 +17,7 @@ const Homepage = ({ data }: HomepageProps) => {
         {data.map(item => (
           <Styles.GridItem key={item.label}>
             <Styles.Link href={item.link}>
-              <Styles.Label>
-                <Styles.LabelText>{item.label}</Styles.LabelText>
-              </Styles.Label>
+              <Styles.Label>{item.label}</Styles.Label>
               <Styles.Image
                 src={getImagePath(item.image)}
                 alt={item.image_alt}
