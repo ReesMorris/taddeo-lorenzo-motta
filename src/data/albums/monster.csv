@@ -1,9 +1,9 @@
-name,image
-Name here,/monster/2D3D1.jpg
-Name here,/monster/2D3D2.jpg
-Name here,/monster/2D3D3.jpg
-Name here,/monster/2D3D4.jpg
-Name here,/monster/2D3D5.jpg
-Name here,/monster/2D3D6.jpg
-Name here,/monster/downsea.jpg
-Name here,/monster/pikapika.jpg
+name;image
+Name here;/monster/2D3D1.jpg
+Name here;/monster/2D3D2.jpg
+Name here;/monster/2D3D3.jpg
+Name here;/monster/2D3D4.jpg
+Name here;/monster/2D3D5.jpg
+Name here;/monster/2D3D6.jpg
+Name here;/monster/downsea.jpg
+Name here;/monster/pikapika.jpg

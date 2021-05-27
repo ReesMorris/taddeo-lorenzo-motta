@@ -11,7 +11,9 @@ const getPath = (fileName: string) => {
 
 export const getData = async <T>(fileName: string): Promise<T[]> => {
   try {
-    const data = await csv().fromFile(getPath(fileName));
+    const data = await csv({ delimiter: [',', ';'] }).fromFile(
+      getPath(fileName)
+    );
     return Promise.resolve(data);
   } catch (err) {
     return Promise.reject(err);
